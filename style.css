@@ -1,0 +1,138 @@
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/556dad00e4b074f7195938e5/1549541735748-Q9SW1BMRFGA1B5URHHBJ/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/digital-molecular-background-hd-wallpaper-5120x2880.jpg?format=1500w');
+}
+span {
+color:red;
+font-size: 20px;
+}
+
+hr
+
+{
+border:0;
+border-bottom:1px solid;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login
+
+{
+margin: auto;
+width:30%;
+border-radius:10px;
+border:2px solid rgb(55, 82, 107);
+padding:10px 40px 25px;
+background-color:transparent;
+margin-left: 35%;
+margin-top: 15%;
+
+box-shadow: 10px 5px 10px 5px  rgb(54, 109, 163);
+}
+input[type=text],input[type=password]
+
+{
+width:96.5%;
+padding:10px;
+margin-top:8px;
+border-color: transparent;
+padding-left:5px;
+font-size:20px;
+background-color: transparent;
+color:white;
+outline: none;
+border-bottom-color:rgb(116, 170, 221);
+}
+input[type=submit]
+
+{
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgb(12, 13, 48);
+    color: #fff;
+    border: 2px solid rgb(49, 47, 151);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type=registrer]
+
+{ 
+    background-color: transparent;
+    color: rgb(123, 202, 233);
+    font-size: 14px;
+    cursor: pointer;
+    border-color: transparent;
+    outline: none;
+    width: 40%;
+}
+::placeholder{
+    color: rgb(116, 170, 221);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: transparent;
+
+}
+#profile
+
+{
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout
+
+{
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a
+
+{
+text-decoration:none;
+color:#6495ed
+}
+i
+
+{
+color:#6495ed
+}
+label{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+p{
+    color:white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 18%;
+}
+.button_registrer{
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgb(12, 13, 48);
+    color: #fff;
+    border: 2px solid rgb(49, 47, 151);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.error{
+    width: 92%;
+    margin:0px auto;
+    padding: 10px;
+    border: 1px solid #f12421;
+    color: #e9b8b7;
+    background: #d44a4a;
+    border-radius: 5px;
+    text-align: left;
+}
